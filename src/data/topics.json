@@ -1,0 +1,194 @@
+{
+    "topics": [
+        {
+            "id": 1,
+            "name": "JavaScript",
+            "category": "frontend"
+        },
+        {
+            "id": 2,
+            "name": "TypeScript",
+            "category": "frontend"
+        },
+        {
+            "id": 3,
+            "name": "React",
+            "category": "frontend"
+        },
+        {
+            "id": 4,
+            "name": "Next.js",
+            "category": "frontend"
+        },
+        {
+            "id": 5,
+            "name": "Vue.js",
+            "category": "frontend"
+        },
+        {
+            "id": 6,
+            "name": "HTML",
+            "category": "frontend"
+        },
+        {
+            "id": 7,
+            "name": "CSS",
+            "category": "frontend"
+        },
+        {
+            "id": 8,
+            "name": "Node.js",
+            "category": "backend"
+        },
+        {
+            "id": 9,
+            "name": "Express.js",
+            "category": "backend"
+        },
+        {
+            "id": 10,
+            "name": "Django",
+            "category": "backend"
+        },
+        {
+            "id": 11,
+            "name": "Laravel",
+            "category": "backend"
+        },
+        {
+            "id": 12,
+            "name": "Spring Boot",
+            "category": "backend"
+        },
+        {
+            "id": 13,
+            "name": "MongoDB",
+            "category": "database"
+        },
+        {
+            "id": 14,
+            "name": "PostgreSQL",
+            "category": "database"
+        },
+        {
+            "id": 15,
+            "name": "MySQL",
+            "category": "database"
+        },
+        {
+            "id": 16,
+            "name": "Redis",
+            "category": "database"
+        },
+        {
+            "id": 17,
+            "name": "Docker",
+            "category": "devops"
+        },
+        {
+            "id": 18,
+            "name": "Kubernetes",
+            "category": "devops"
+        },
+        {
+            "id": 19,
+            "name": "CI/CD",
+            "category": "devops"
+        },
+        {
+            "id": 20,
+            "name": "GitHub Actions",
+            "category": "devops"
+        },
+        {
+            "id": 21,
+            "name": "AWS",
+            "category": "cloud"
+        },
+        {
+            "id": 22,
+            "name": "Azure",
+            "category": "cloud"
+        },
+        {
+            "id": 23,
+            "name": "Google Cloud",
+            "category": "cloud"
+        },
+        {
+            "id": 24,
+            "name": "Machine Learning",
+            "category": "ai"
+        },
+        {
+            "id": 25,
+            "name": "Deep Learning",
+            "category": "ai"
+        },
+        {
+            "id": 26,
+            "name": "Computer Vision",
+            "category": "ai"
+        },
+        {
+            "id": 27,
+            "name": "NLP",
+            "category": "ai"
+        },
+        {
+            "id": 28,
+            "name": "Cybersecurity",
+            "category": "security"
+        },
+        {
+            "id": 29,
+            "name": "Penetration Testing",
+            "category": "security"
+        },
+        {
+            "id": 30,
+            "name": "Cryptography",
+            "category": "security"
+        },
+        {
+            "id": 31,
+            "name": "Data Structures",
+            "category": "cs"
+        },
+        {
+            "id": 32,
+            "name": "Algorithms",
+            "category": "cs"
+        },
+        {
+            "id": 33,
+            "name": "Operating Systems",
+            "category": "cs"
+        },
+        {
+            "id": 34,
+            "name": "Networking",
+            "category": "cs"
+        },
+        {
+            "id": 35,
+            "name": "Flutter",
+            "category": "mobile"
+        },
+        {
+            "id": 36,
+            "name": "React Native",
+            "category": "mobile"
+        },
+        {
+            "id": 37,
+            "name": "Android",
+            "category": "mobile"
+        },
+        {
+            "id": 38,
+            "name": "iOS",
+            "category": "mobile"
+        }
+    ]
+}
