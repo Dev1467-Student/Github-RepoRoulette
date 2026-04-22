@@ -19,7 +19,7 @@ const Header = () => {
         <h1>{t.title}</h1>
       </div>
       <nav className="nav-links">
-        <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        <NavLink to="/Github-RepoRoulette" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
           {t.home}
         </NavLink>
         <NavLink to="/explore" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
@@ -31,9 +31,9 @@ const Header = () => {
         <NavLink to="/about" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
           {t.about}
         </NavLink>
-        
-        <select 
-          className="select-input" 
+
+        <select
+          className="select-input"
           style={{ width: 'auto', padding: '0.25rem 2rem 0.25rem 0.75rem', fontSize: '0.875rem' }}
           value={lang}
           onChange={(e) => dispatch(setLanguage(e.target.value))}

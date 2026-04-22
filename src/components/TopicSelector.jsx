@@ -7,7 +7,6 @@ const TopicSelector = ({ selectedTopic, onChange }) => {
   const lang = useSelector((state) => state.lang.current);
   const t = translations[lang];
 
-  // Group topics by category
   const groupedTopics = topicsData.topics.reduce((acc, topic) => {
     if (!acc[topic.category]) {
       acc[topic.category] = [];
@@ -21,11 +20,12 @@ const TopicSelector = ({ selectedTopic, onChange }) => {
       <label htmlFor="topic-select" className="block mb-2 font-medium" style={{ textAlign: 'center' }}>
         {t.selectTopic}
       </label>
-      <select 
-        id="topic-select" 
-        value={selectedTopic} 
+      <select
+        id="topic-select"
+        value={selectedTopic}
         onChange={(e) => onChange(e.target.value)}
         className="select-input"
+        style={{ margin: "7px 0" }}
       >
         <option value="">{t.chooseTopic}</option>
         {Object.entries(groupedTopics).map(([category, topics]) => (

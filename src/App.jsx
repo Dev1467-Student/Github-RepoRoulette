@@ -34,7 +34,7 @@ function App() {
       <Header />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Github-RepoRoulette" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/saved" element={<SavedRepos />} />
           <Route path="/about" element={<About />} />
